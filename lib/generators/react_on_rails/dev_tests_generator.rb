@@ -5,7 +5,7 @@ include GeneratorHelper
 module ReactOnRails
   module Generators
     class DevTestsGenerator < Rails::Generators::Base
-      hide!
+      # hide!
       source_root(File.expand_path("../templates/dev_tests", __FILE__))
 
       def copy_rspec_files
